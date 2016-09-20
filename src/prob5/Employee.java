@@ -2,8 +2,8 @@ package prob5;
 
 public class Employee {
 
-	private String name;
-	private int salary;
+	protected String name;
+	protected int salary;
 
 	public Employee() {
 	}
@@ -30,6 +30,6 @@ public class Employee {
 	}
 
 	public void getInformation() {
-		System.out.printf( "이름: %s   연봉: %d\n", name, salary );
+		System.out.println("이름: "+ name+" 연봉: "+salary);
 	}
 }
